@@ -38,6 +38,11 @@ header {
   flex-flow: column wrap;
   justify-content: space-around;
 }
+#end-body{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
 
 /*styling elements*/
 nav {
@@ -61,6 +66,7 @@ a {
   height: auto;
   display: inline;
   margin-right: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -70,7 +76,8 @@ h1 {
   font-style: italic;
   font-size: 250%;
   line-height: 2.25rem;
-  margin: 200px 20px 20px;
+  margin-top: 200px;
+  text-align: center;
   width: 50%;
 }
 
@@ -96,6 +103,21 @@ h1 {
   font-size: 2vw;
   width: 50%;
   margin: auto;
+
+}
+#end-body{
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 2vw;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+
+}
+
+button{
+
+  font-size: 2vw;
+  padding: 10px; 
 }
 
 cite {
