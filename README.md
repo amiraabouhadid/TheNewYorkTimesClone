@@ -9,3 +9,4 @@ Project requirements:
 clean, code, semantic HTML, <aside> tag for editor's picks, use float, flex and grid techniques. 
 Live Demo at https://amiraabouhadid.github.io/project1/
 Author: Amira Abouhadid
+file:///home/amira/Pictures/Screenshot%20from%202021-02-17%2015-17-48.png
