@@ -8,5 +8,5 @@ Project specifications can be found at https://www.theodinproject.com/courses/ht
 Project requirements:
 clean, code, semantic HTML, <aside> tag for editor's picks, use float, flex and grid techniques.
 Live Demo at https://amiraabouhadid.github.io/project1/
-![alt text](/home/amira/Microverse2.0/test/pictures/READMESNEAKPEAK.png)
+![alt text](https://user-images.githubusercontent.com/56790126/108225362-8d767e80-7144-11eb-9bfb-dcf7c895c70f.png)
 Author: Amira Abouhadid
