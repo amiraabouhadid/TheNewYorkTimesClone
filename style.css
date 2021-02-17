@@ -17,7 +17,6 @@ nav {
 
 #nav-bar-2 {
   position: fixed;
-  bottom: 0px;
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
