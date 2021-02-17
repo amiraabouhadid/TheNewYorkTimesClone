@@ -7,18 +7,35 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+#nav-bar-2 {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
 
 header {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 .img-header {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 .titleLinks {
@@ -38,7 +55,8 @@ header {
   flex-flow: column wrap;
   justify-content: space-around;
 }
-#end-body{
+
+#end-body {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
@@ -53,7 +71,24 @@ nav {
 }
 
 .nav-left-images {
-  width: 25px;
+  width: 1vw;
+}
+
+.nav-center-img {
+  width: 70%;
+}
+
+.nav-left {
+  font-size: 1vw;
+}
+
+#nav-bar-2 {
+  font-size: 1.5vw;
+  font-weight: bold;
+  border-top: solid;
+  border-width: thin;
+  background-color: white;
+  width: 100%;
 }
 
 a {
@@ -62,7 +97,7 @@ a {
 }
 
 #socialslink {
-  width: 23px;
+  width: 1.5vw;
   height: auto;
   display: inline;
   margin-right: 20px;
@@ -74,8 +109,7 @@ h1 {
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 250%;
-  line-height: 2.25rem;
+  font-size: 3vw;
   margin-top: 200px;
   text-align: center;
   width: 50%;
@@ -100,27 +134,29 @@ h1 {
 
 #vid-body {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 2vw;
+  font-size: 1.5vw;
   width: 50%;
   margin: auto;
-
 }
-#end-body{
+
+#end-body {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 2vw;
+  font-size: 1.5vw;
   width: 50%;
   margin: auto;
   text-align: center;
-
 }
 
-button{
-
-  font-size: 2vw;
-  padding: 10px; 
+button {
+  font-size: .7vw;
+  padding: 10px;
 }
 
 cite {
   opacity: 0.5;
-  font-size: 0.8vw;
+  font-size: inherit;
+}
+
+iframe {
+  width: 100%;
 }
