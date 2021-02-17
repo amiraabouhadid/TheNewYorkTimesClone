@@ -63,23 +63,57 @@ header {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
+}
+
+#main-body p {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
   width: 50%;
-  margin: 20px auto 20px auto;
+  margin: 10px auto 10px auto;
 }
 
-#vid-body {
+#main-body h2 {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  width: 50%;
+  margin: 10px auto 10px auto;
+}
+
+#main-body img {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 1.5vw;
-  width: 50%;
+  margin: auto;
+
+}
+
+#main-body cite {
+  margin-right: 7px;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+#v-body {
+  display: flex;
+  flex-flow: column wrap;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 1.5vw;
   margin: auto;
 }
 
+#main-bod-img-2 {
+  display: flex;
+  flex-flow: column wrap;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-size: 1.5vw;
+  margin: auto;
+
+}
 #end-body {
   display: flex;
   flex-flow: column wrap;
@@ -244,10 +278,6 @@ button {
   margin 10px 10px 10px 10px;
 }
 
-iframe {
-  width: 100%;
-}
-
 /* share& comment styling */
 .cmmtbuttonslinks {
   display: flex;
@@ -279,7 +309,7 @@ iframe {
   width: 30%;
 }
 
-h3 {
+#container h3 {
   font-size: 1.5vw;
   font-weight: bold;
 }
