@@ -10,4 +10,12 @@ clean, code, semantic HTML, <aside> tag for editor's picks, use float, flex and 
 Live Demo at https://amiraabouhadid.github.io/project1/
 ![READMESNEAKPEAK](https://user-images.githubusercontent.com/56790126/108226304-75532f00-7145-11eb-9f71-7916903fbc67.png)
 
-Author: Amira Abouhadid
+bust_in_silhouette Author  Amira Abouhadid
+handshake Contributing reviews, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
+Show your support Give a star if you like this project!
+
+Acknowledgments Hat tip to anyone whose code was used Inspiration etc
+memo License This project is MIT licensed.
