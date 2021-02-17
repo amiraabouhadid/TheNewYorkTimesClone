@@ -7,6 +7,6 @@ Positioning
 Project specifications can be found at https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
 Project requirements: 
 clean, code, semantic HTML, <aside> tag for editor's picks, use float, flex and grid techniques. 
-
+Live Demo at https://amiraabouhadid.github.io/project1/
 Author: Amira Abouhadid
 
