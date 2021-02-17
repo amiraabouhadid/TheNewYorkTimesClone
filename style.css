@@ -1,4 +1,8 @@
 /*positioning elements*/
+@-ms-viewport {
+  width: device-width;
+}
+
 nav {
   position: fixed;
 }
