@@ -64,7 +64,8 @@ header {
   flex-flow: column wrap;
   justify-content: space-around;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 2vw;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
   width: 50%;
   margin: 20px auto 20px auto;
 }
@@ -91,16 +92,17 @@ header {
 }
 
 /* styling grid */
-
 .container {
   display: grid;
   grid-template-columns: 75% 25%;
   margin: 0 35px;
 }
+
 .container hr {
   border: 1px solid black;
   width: 100%;
 }
+
 .container h3 {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -140,10 +142,12 @@ header {
   line-height: 1.125rem;
   letter-spacing: 0.2px;
 }
-.sa-container{
+
+.sa-container {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: 10px;
+  margin: 15px;
+  grid-gap: 1%;
 }
 
 .sa-container a {
@@ -162,23 +166,26 @@ header {
   line-height: 1.25rem;
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
-  margin-top:20px;
+  margin-top: 20px;
 }
-.sa-container div{
+
+.sa-container div {
   display: grid;
   grid-template-columns: 100%;
 }
 
-.ep-container{
+.ep-container {
   display: grid;
   grid-template-columns: 30% 30% 30%;
   margin: 15px;
   grid-gap: 1%;
 }
-.ep-container div{
+
+.ep-container div {
   display: grid;
-  grid-template-columns: 100%; 
+  grid-template-columns: 100%;
 }
+
 .ep-container a {
   font-size: 1.3125rem;
   line-height: 1.5rem;
@@ -196,11 +203,10 @@ header {
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
 }
-.mp-container hr{
-  width:100%;
+
+.mp-container hr {
+  width: 100%;
   border-style: ridge;
-
-
 }
 
 /* styling elements */
@@ -236,11 +242,6 @@ button {
   font-size: 0.7vw;
   padding: 10px;
   margin 10px 10px 10px 10px;
-}
-
-cite {
-  opacity: 0.5;
-  font-size: inherit;
 }
 
 iframe {
