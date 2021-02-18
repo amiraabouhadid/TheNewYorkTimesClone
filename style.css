@@ -37,7 +37,6 @@ h1 {
 
 i {
   width: 2rem;
-
   margin-top: 2rem;
   color: black;
   height: 2rem;
@@ -57,7 +56,6 @@ i {
 }
 
 .nav-left {
-
   float: left;
 }
 
@@ -67,6 +65,23 @@ i {
 
 .nav-left a {
   font-size: 1rem;
+}
+
+.cmmtbuttonslinks button {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: white;
+  display: block;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 #nav-bar button {
@@ -92,7 +107,7 @@ i {
 }
 
 .nav-right {
-  display: float;
+  float: right;
 }
 
 .nav-right div {
@@ -134,7 +149,6 @@ i {
   margin: auto;
 }
 
-
 #main-body {
   display: flex;
   flex-flow: column wrap;
@@ -165,6 +179,10 @@ i {
   width: 100%;
 }
 
+.sa-container img {
+  width: 100%;
+}
+
 #main-body img {
   display: flex;
   flex-flow: column wrap;
@@ -189,11 +207,7 @@ i {
 #tof-grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-
   grid-column-gap: 8px;
-}
-.sa-container img {
-  width: 100%;
 }
 
 #tof img {
@@ -250,6 +264,7 @@ i {
   text-align: center;
   color: #666;
 }
+
 .nls-container a {
   color: rgb(50, 104, 145);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -259,6 +274,7 @@ i {
   line-height: 1.125rem;
   letter-spacing: 0.2px;
 }
+
 .sa-container a {
   font-size: 1rem;
   line-height: 1rem;
@@ -266,6 +282,7 @@ i {
   text-size-adjust: 100%;
   vertical-align: baseline;
 }
+
 .ep-container a {
   font-size: 1rem;
   line-height: 1rem;
@@ -341,16 +358,12 @@ i {
   color: rgb(153, 153, 153);
 }
 
-
-
 .sa-container {
   display: grid;
   grid-template-columns: 50% 50%;
   margin: 15px;
   grid-gap: 1%;
 }
-
-
 
 .sa-container div {
   display: flex;
@@ -368,21 +381,15 @@ i {
   align-self: flex-end;
 }
 
-
-
 .ep-container {
   display: grid;
   grid-template-columns: 30% 30% 30%;
 }
 
-
-
 .ep-container div {
   display: flex;
   flex-flow: column wrap;
 }
-
-
 
 .ep-container span {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -400,7 +407,6 @@ i {
 }
 
 /* styling elements */
-
 /* share& comment styling */
 .cmmtbuttonslinks {
   display: flex;
@@ -408,26 +414,7 @@ i {
   flex-flow: column;
 }
 
-.cmmtbuttonslinks button {
-  background-color: rgb(86, 123, 149);
-  border: 1px solid rgb(50, 104, 145);
-  border-radius: 3px;
-  color: white;
-  display: block;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  line-height: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding: 0.5rem;
-}
-
 /* footer styling */
-
-
 .f-links {
   display: flex;
   justify-content: space-evenly;
@@ -437,16 +424,12 @@ i {
   font-size: 0.9rem;
 }
 
-
-
 .copyrights {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 30px;
   font-size: 0.3rem;
 }
-
-
 
 .f-links b {
   font-size: 0.9rem;
