@@ -14,9 +14,18 @@ nav {
 header {
   display: flex;
   flex-flow: column wrap;
+}
+
+header img{
+  width:100%;
+
+}
+.img-header{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
   justify-content: space-around;
-  align-items: center;
-  align-content: center;
 }
 
 a {
@@ -129,16 +138,6 @@ i {
   background-color: white;
   width: 100%;
   bottom: 0%;
-}
-
-.img-header {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  margin: auto;
-  width: 60%;
 }
 
 .titleLinks {
