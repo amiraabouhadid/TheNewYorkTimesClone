@@ -1,15 +1,21 @@
 /* positioning elements */
 html {
-  overflow-x: hidden; //horizontal
-  overflow-y: scroll; //vertical
+  overflow-x: hidden;
 }
 
 nav {
   position: fixed;
   background-color: white;
-  border-style: outset;
+  border-bottom:solid black;
   width: 100%;
   top: 0;
+}
+header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 a {
@@ -27,27 +33,58 @@ h1 {
   text-align: center;
   width: 50%;
 }
-
-button {
-  font-size: 0.7vw;
-  padding: 10px;
-  margin: 10px 10px 10px 10px;
-}
-
-header {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-}
-
 #nav-bar {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
+  width:100%;
+}
+
+.nav-img {
+  width: 70%;
+}
+
+.nav-left{
+  display: float;
+  float: left;
+}
+.nav-left img{
+  width:1rem;
+}
+.nav-left a{
+  font-size: 1rem;
+}
+
+#nav-bar button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+}
+
+.nav-right {
+  display: float;
+
+}
+.nav-right div{
+  clear:both;
 }
 
 #nav-bar-2 {
@@ -64,6 +101,7 @@ header {
   border-width: thin;
   background-color: white;
   width: 100%;
+  bottom: 0px;
 }
 
 .img-header {
@@ -121,19 +159,23 @@ header {
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
-#tof{
-  width:100%;
+
+#tof {
+  width: 65%;
   margin: auto;
-
-
 }
 
 #tof-grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-row-gap: 0px;
-  grid-column-gap: 0px;
+  grid-column-gap: 8px;
+  
 }
+#tof img{
+  width:100%;
+}
+
 #tof p {
   font-size: .875rem;
   line-height: 18px;
@@ -142,13 +184,14 @@ header {
   font-style: normal;
   font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
   color: #666;
-
+  width:100%;
 }
 
 #tof-grid p {
   display: block;
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   color: #000000;
+  font-weight: lighter;
 }
 
 .tof-grid b {
@@ -183,7 +226,8 @@ header {
   text-align: center;
   color: #666;
 }
-#end-body a{
+
+#end-body a {
   color: #666;
 }
 
@@ -254,6 +298,11 @@ header {
   vertical-align: baseline;
 }
 
+.sa-container div {
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .sa-container span {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 500;
@@ -262,12 +311,11 @@ header {
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
   margin-top: 20px;
-
+  align-self: flex-end;
 }
 
-.sa-container div {
-  display: grid;
-  grid-template-columns: 100%;
+.sa-container img {
+  width: 100%;
 }
 
 .ep-container {
@@ -278,8 +326,8 @@ header {
 }
 
 .ep-container div {
-  display: grid;
-  grid-template-columns: 100%;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .ep-container a {
@@ -297,6 +345,7 @@ header {
   line-height: 1.25rem;
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
+  align-self: flex-end;
 }
 
 .mp-container hr {
@@ -305,17 +354,9 @@ header {
 }
 
 /* styling elements */
-.nav-left-images {
-  width: 1vw;
-}
 
-.nav-img {
-  width: 70%;
-}
 
-.nav-left {
-  font-size: 1vw;
-}
+
 
 /* share& comment styling */
 .cmmtbuttonslinks {
@@ -341,23 +382,23 @@ header {
 }
 
 /* footer styling */
-.f-logo {
-  width: 30%;
+.f-logo img {
+  width: 15rem;
 }
 
-#container h3 {
-  font-size: 1.5vw;
-  font-weight: bold;
-}
 
 .f-links {
   display: flex;
   justify-content: space-evenly;
 }
+.f-links h3{
+  font-size: 0.9rem;
+
+}
 
 .f-links a {
   padding: 5px;
-  font-size: 1.2vw;
+  font-size: 0.7rem;
   font-family: arial, sans-serif;
   line-height: 1.6;
   display: block;
@@ -369,7 +410,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 30px;
-  font-size: 0.5vw;
+  font-size: 0.3rem;
 }
 
 .copyrights a {
@@ -380,5 +421,9 @@ header {
 .subscribe a {
   color: black;
   font-weight: lighter;
-  font-size: 1vw;
+  font-size: 0.9rem;
+}
+
+.f-links b {
+  font-size: 0.9rem;
 }
