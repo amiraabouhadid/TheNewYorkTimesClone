@@ -16,11 +16,11 @@ header {
   flex-flow: column wrap;
 }
 
-header img{
-  width:100%;
-
+header img {
+  width: 100%;
 }
-.img-header{
+
+.img-header {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -406,7 +406,6 @@ i {
 }
 
 /* styling elements */
-
 /* share& comment styling */
 .cmmtbuttonslinks {
   display: flex;
