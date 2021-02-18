@@ -1,59 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+Project 1: Positioning and Floating Elements
 
-> One paragraph statement about the project.
+Project 1 of Microverse 2.0 program: Positioning and Floating Elements
 
-![screenshot](./app_screenshot.png)
+We were asked to make a clone of a New York Times article page using the following concepts: Embedding images The box model Flexbox Positioning
 
-Additional description about the project and its features.
+![READMESNEAKPEAK](https://user-images.githubusercontent.com/56790126/108226304-75532f00-7145-11eb-9f71-7916903fbc67.png)
+
+Project specifications can be found at https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
+
+Project requirements: clean, code, semantic HTML, aside tag for editor's picks, use float, flex and grid techniques.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5 & CC3
+- Atom Text-Editor
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://amiraabouhadid.github.io/project1/)
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@amiraabouhadid](https://github.com/amiraabouhadid)
+- Twitter: [@AbouhadidAmira](https://twitter.com/AbouhadidAmira)
+- LinkedIn: [amira-abouhadid](https://linkedin.com/amira-abouhadid)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
