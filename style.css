@@ -1,4 +1,9 @@
 /* positioning elements */
+html {
+  overflow-x: hidden; //horizontal
+  overflow-y: scroll; //vertical
+}
+
 nav {
   position: fixed;
   background-color: white;
@@ -68,7 +73,7 @@ header {
   align-items: center;
   align-content: center;
   margin: auto;
-  width: 80%;
+  width: 60%;
 }
 
 .titleLinks {
@@ -116,6 +121,40 @@ header {
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
+#tof{
+  width:100%;
+  margin: auto;
+
+
+}
+
+#tof-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+}
+#tof p {
+  font-size: .875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+  color: #666;
+
+}
+
+#tof-grid p {
+  display: block;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  color: #000000;
+}
+
+.tof-grid b {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
 
 #v-body {
   display: flex;
@@ -142,6 +181,10 @@ header {
   width: 50%;
   margin: auto;
   text-align: center;
+  color: #666;
+}
+#end-body a{
+  color: #666;
 }
 
 /* styling grid */
@@ -219,6 +262,7 @@ header {
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
   margin-top: 20px;
+
 }
 
 .sa-container div {
