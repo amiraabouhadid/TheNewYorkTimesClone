@@ -1,32 +1,76 @@
-Project 1 of Microverse 2.0 program: Positioning and Floating Elements
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-We were asked to make a clone of a New York Times article page using the following concepts: Embedding images The box model Flexbox Positioning
+# Project Name
 
-Project specifications can be found at https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
+> One paragraph statement about the project.
 
-Project requirements: clean, code, semantic HTML, aside tag for editor's picks, use float, flex and grid techniques.
-
-
-![READMESNEAKPEAK](https://user-images.githubusercontent.com/56790126/108226304-75532f00-7145-11eb-9f71-7916903fbc67.png)
+![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
-Built With
-HTML5&CSS3
+## Built With
 
-[Live Demo Link](https://amiraabouhadid.github.io/project1/)
+- Major languages
+- Frameworks
+- Technologies used
+
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
 
 
-Authors
+## Getting Started
 
-Github: @amiraabouhadid
-Twitter: @AbouhadidAmira
-LinkedIn: @amira-abouhadid
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-Contributing reviews, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+To get a local copy up and running follow these simple example steps.
 
-Show your support Give a star if you like this project!
+### Prerequisites
 
-Acknowledgments to anyone whose code was used Inspiration etc. License This project is MIT licensed.
+### Setup
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
+
+
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
