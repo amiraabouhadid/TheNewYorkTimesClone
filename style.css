@@ -37,7 +37,7 @@ h1 {
 
 i {
   width: 2rem;
-  height: 1.2rem;
+
   margin-top: 2rem;
   color: black;
   height: 2rem;
@@ -57,7 +57,7 @@ i {
 }
 
 .nav-left {
-  display: float;
+
   float: left;
 }
 
@@ -113,7 +113,7 @@ i {
   border-width: thin;
   background-color: white;
   width: 100%;
-  bottom: 0px;
+  bottom: 0%;
 }
 
 .img-header {
@@ -133,6 +133,7 @@ i {
   width: 50%;
   margin: auto;
 }
+
 
 #main-body {
   display: flex;
@@ -154,6 +155,14 @@ i {
   line-height: 1.875rem;
   width: 50%;
   margin: 10px auto 10px auto;
+}
+
+.f-logo img {
+  width: 15rem;
+}
+
+.ep-container img {
+  width: 100%;
 }
 
 #main-body img {
@@ -180,8 +189,11 @@ i {
 #tof-grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-row-gap: 0px;
+
   grid-column-gap: 8px;
+}
+.sa-container img {
+  width: 100%;
 }
 
 #tof img {
@@ -189,7 +201,7 @@ i {
 }
 
 #tof p {
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 18px;
   line-height: 1.125rem;
   font-weight: 400;
@@ -202,7 +214,7 @@ i {
 #tof-grid p {
   display: block;
   font-family: nyt-franklin, arial, helvetica, sans-serif;
-  color: #000000;
+  color: #000;
   font-weight: lighter;
 }
 
@@ -237,6 +249,50 @@ i {
   margin: auto;
   text-align: center;
   color: #666;
+}
+.nls-container a {
+  color: rgb(50, 104, 145);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.125rem;
+  letter-spacing: 0.2px;
+}
+.sa-container a {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: rgb(18, 18, 18);
+  text-size-adjust: 100%;
+  vertical-align: baseline;
+}
+.ep-container a {
+  font-size: 1rem;
+  line-height: 1rem;
+  color: rgb(18, 18, 18);
+  text-size-adjust: 100%;
+  vertical-align: baseline;
+}
+
+.f-links a {
+  padding: 5px;
+  font-size: 0.7rem;
+  font-family: arial, sans-serif;
+  line-height: 1.6;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.copyrights a {
+  color: #666;
+  font-size: 0.8vw;
+}
+
+.subscribe a {
+  color: black;
+  font-weight: lighter;
+  font-size: 0.9rem;
 }
 
 #end-body a {
@@ -285,15 +341,7 @@ i {
   color: rgb(153, 153, 153);
 }
 
-.nls-container a {
-  color: rgb(50, 104, 145);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.125rem;
-  letter-spacing: 0.2px;
-}
+
 
 .sa-container {
   display: grid;
@@ -302,13 +350,7 @@ i {
   grid-gap: 1%;
 }
 
-.sa-container a {
-  font-size: 1rem;
-  line-height: 1rem;
-  color: rgb(18, 18, 18);
-  text-size-adjust: 100%;
-  vertical-align: baseline;
-}
+
 
 .sa-container div {
   display: flex;
@@ -326,31 +368,21 @@ i {
   align-self: flex-end;
 }
 
-.sa-container img {
-  width: 100%;
-}
+
 
 .ep-container {
   display: grid;
   grid-template-columns: 30% 30% 30%;
 }
 
-.ep-container img {
-  width: 100%;
-}
+
 
 .ep-container div {
   display: flex;
   flex-flow: column wrap;
 }
 
-.ep-container a {
-  font-size: 1rem;
-  line-height: 1rem;
-  color: rgb(18, 18, 18);
-  text-size-adjust: 100%;
-  vertical-align: baseline;
-}
+
 
 .ep-container span {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -368,6 +400,7 @@ i {
 }
 
 /* styling elements */
+
 /* share& comment styling */
 .cmmtbuttonslinks {
   display: flex;
@@ -393,9 +426,7 @@ i {
 }
 
 /* footer styling */
-.f-logo img {
-  width: 15rem;
-}
+
 
 .f-links {
   display: flex;
@@ -406,15 +437,7 @@ i {
   font-size: 0.9rem;
 }
 
-.f-links a {
-  padding: 5px;
-  font-size: 0.7rem;
-  font-family: arial, sans-serif;
-  line-height: 1.6;
-  display: block;
-  text-decoration: none;
-  color: black;
-}
+
 
 .copyrights {
   display: flex;
@@ -423,16 +446,7 @@ i {
   font-size: 0.3rem;
 }
 
-.copyrights a {
-  color: #666;
-  font-size: 0.8vw;
-}
 
-.subscribe a {
-  color: black;
-  font-weight: lighter;
-  font-size: 0.9rem;
-}
 
 .f-links b {
   font-size: 0.9rem;
