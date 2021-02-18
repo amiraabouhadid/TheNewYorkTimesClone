@@ -14,10 +14,11 @@ Additional description about the project and its features.
 Built With
 HTML5&CSS3
 
-Live Demo
-https://amiraabouhadid.github.io/project1/
+[Live Demo Link](https://amiraabouhadid.github.io/project1/)
+
 
 Authors
+
 Github: @amiraabouhadid
 Twitter: @AbouhadidAmira
 LinkedIn: @amira-abouhadid
