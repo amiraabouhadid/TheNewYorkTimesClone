@@ -267,6 +267,17 @@ i {
   color: #666;
 }
 
+.subscribe a {
+  color: black;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+.copyrights a {
+  color: #666;
+  font-size: 0.8vw;
+}
+
 #nls-container a {
   color: rgb(50, 104, 145);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -303,17 +314,6 @@ i {
   color: black;
 }
 
-.copyrights a {
-  color: #666;
-  font-size: 0.8vw;
-}
-
-.subscribe a {
-  color: black;
-  font-weight: lighter;
-  font-size: 0.9rem;
-}
-
 #end-body a {
   color: #666;
 }
@@ -322,6 +322,11 @@ i {
 #container {
   grid-template-columns: 75% 25%;
   margin: 0 35px;
+}
+
+.mp-container hr {
+  width: 100%;
+  border-style: ridge;
 }
 
 #container hr {
@@ -399,13 +404,12 @@ i {
   align-self: flex-end;
 }
 
-.mp-container hr {
-  width: 100%;
-  border-style: ridge;
-}
+
 
 /* styling elements */
+
 /* share& comment styling */
+
 /* footer styling */
 #f-links {
   display: flex;
