@@ -44,22 +44,21 @@ a {
   color: black;
 }
 
+
 h1 {
   color: #121212;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
   font-size: 2.6rem;
-  margin-top: 200px;
-  text-align: center;
+  margin-top:100px;
   width: 100%;
 }
 
 i {
   width: 2rem;
-  margin-top: 2rem;
   color: black;
-  height: 2rem;
+  height: 1rem;
 }
 
 #nav-bar {
@@ -151,11 +150,12 @@ i {
 }
 
 #titleLinks {
-  flex-flow: column wrap;
-  justify-content: space-around;
+  grid-template-columns: 100%;
   width: 50%;
   margin: auto;
 }
+
+
 
 #main-body {
   flex-flow: column wrap;
@@ -344,14 +344,12 @@ i {
 
 #nls-container {
   grid-template-columns: 30% 30% 30%;
-  margin: 15px;
   grid-gap: 1%;
 }
 
 #nls-container div {
   display: grid;
   grid-template-columns: 100%;
-  margin: 10px;
 }
 
 #nls-container span {
@@ -412,6 +410,9 @@ i {
 #f-links {
   display: flex;
   justify-content: space-evenly;
+  width:80%;
+  align-content: center;
+  margin:auto;
 }
 
 #f-links h3 {
