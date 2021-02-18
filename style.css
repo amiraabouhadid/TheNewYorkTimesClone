@@ -399,9 +399,6 @@ i {
   align-self: flex-end;
 }
 
-/* styling elements */
-/* share& comment styling */
-/* footer styling */
 #f-links {
   display: flex;
   justify-content: space-evenly;
