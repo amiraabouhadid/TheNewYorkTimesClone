@@ -4,14 +4,14 @@ html {
 }
 
 title {
-  width:80%;
+  width: 80%;
 }
 
-.grid{
+.grid {
   display: grid;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
@@ -76,7 +76,7 @@ i {
 
 .nav-left {
   float: left;
-  margin:1rem;
+  margin: 1rem;
 }
 
 .nav-left img {
@@ -127,7 +127,7 @@ i {
 
 .nav-right {
   float: right;
-  margin:1rem;
+  margin: 1rem;
 }
 
 .nav-right div {
@@ -405,9 +405,7 @@ i {
 }
 
 /* styling elements */
-
 /* share& comment styling */
-
 /* footer styling */
 #f-links {
   display: flex;
