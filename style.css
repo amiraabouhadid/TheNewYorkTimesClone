@@ -98,7 +98,7 @@ i {
   font-weight: 600;
   letter-spacing: 0.05em;
   line-height: 1.5rem;
-  margin: 20px autp 10px auto;
+  margin: 20px auto 10px auto;
   width: 100%;
   padding: 0.5rem;
 }
@@ -403,8 +403,6 @@ i {
   color: rgb(153, 153, 153);
   align-self: flex-end;
 }
-
-
 
 /* styling elements */
 
