@@ -380,7 +380,7 @@ footer {
 }
 
 #sa-container {
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 30% 30% 30%;
   margin: 15px;
   grid-gap: 1%;
 }
