@@ -174,9 +174,12 @@ i {
   width: 50%;
   margin: 10px auto 10px auto;
 }
-footer{
-  width:80%; margin: auto; 
+
+footer {
+  width: 80%;
+  margin: auto;
 }
+
 #f-header {
   justify-content: space-between;
   align-items: center;
