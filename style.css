@@ -281,6 +281,32 @@ footer {
   color: #666;
 }
 
+#form-comment h5 {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+#form-comment label {
+  font-size: 1rem;
+  color: #666;
+}
+
+#form-comment textarea {
+  color: #000;
+  height: 5rem;
+}
+
+#form-comment div {
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+}
+
+#form-comment {
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 10% 50% 10% 10% 10%;
+}
+
 .subscribe a {
   color: black;
   font-weight: lighter;
