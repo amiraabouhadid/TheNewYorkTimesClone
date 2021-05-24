@@ -2,8 +2,6 @@
 
 # Project 1: Positioning and Floating Elements
 
-Project 1 of Microverse 2.0 program: Positioning and Floating Elements
-
 We were asked to make a clone of a New York Times article page using the following concepts: Embedding images The box model Flexbox Positioning
 
 ![READMESNEAKPEAK](https://user-images.githubusercontent.com/56790126/108226304-75532f00-7145-11eb-9f71-7916903fbc67.png)
