@@ -1,7 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-Project 1: Positioning and Floating Elements
+# Project 1: Positioning and Floating Elements
 
 Project 1 of Microverse 2.0 program: Positioning and Floating Elements
 
